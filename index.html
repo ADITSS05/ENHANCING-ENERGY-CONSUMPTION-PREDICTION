@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Consumption Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO ENERGY CONSUMING PREDICTION</h1>
+        <p class="subtitle">A Site for predicting the Power Consumption in Smart Buildings......</p>
+        
+        <form id="predictionForm" onsubmit="handleSubmit(event)">
+            <div class="input-group">
+                <label for="roomArea">Enter Room Area:</label>
+                <input type="number" id="roomArea" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="temperature">Enter Temperature:</label>
+                <input type="number" id="temperature" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
